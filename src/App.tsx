@@ -1,6 +1,8 @@
+import Header from './components/header';
+
 function App() {
   return (
-    <h1>Portfólio Ux</h1>
+    <Header />
   );
 }
 
