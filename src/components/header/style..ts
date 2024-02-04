@@ -13,6 +13,7 @@ export const Container = styled.div`
   position: fixed;
   width: 100%;
   z-index: 10000;
+  box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.1);
 
   .container-textHeader-and-buttons {
     display: flex;
@@ -214,13 +215,12 @@ export const Select = styled.select`
     font-size: 12px;
   }
 `;
-
 export const ContainerSelector = styled.div`
   position: relative;
   .languageIcon {
     position: absolute;
     left: 7px;
-    top: 5px;
+    top: 3px;
     height: 22px;
   }
   @media ${device.laptopMin} and (max-width: 1024px){

@@ -8,10 +8,9 @@ const messages = {
         textContacts: 'Contacts',
       },
       apresentationText: {
-        firstText: 'Hello, my name is',
-        secondText: 'Michel Pereira,',
-        thirdText: 'and I am',
-        fourthText: 'Front-end developer',
+        firstText: 'Hello, my name is Cassiane',
+        secondText: 'UX/UI DESIGNER',
+        thirdText: 'And my focus as a professional is the creation of innovative solutions, intuitive and pleasant interfaces.',
       },
       aboutText: {
         subtitle: 'About me',
