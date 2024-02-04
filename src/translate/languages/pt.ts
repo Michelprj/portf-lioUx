@@ -14,7 +14,7 @@ const messages = {
       },
       aboutText: {
         subtitle: 'Sobre mim',
-        paragraph1: 'Sou um Desenvolvedor Front-end apaixonado por React JS, especializado em Redux, Styled Components, TypeScript, Bootstrap e Material UI. Minha paixão pela inovação norteia meu trabalho, onde busco constantemente desafios para explorar novos horizontes e encontrar soluções criativas. Além das habilidades técnicas, tenho inglês técnico intermediário, facilitando a comunicação em ambientes de desenvolvimento. Comprometido, adoro enfrentar problemas complexos, acreditando que cada desafio é uma oportunidade de aprender e crescer. Se você procura um profissional apaixonado e comprometido com o sucesso do projeto, estou pronto para contribuir e transformar ideias em experiências incríveis.',
+        paragraph1: 'Sou uma entusiasta do design apaixonada por criar experiências digitais envolventes e funcionais. Como Designer de UX/UI, meu objetivo é unir beleza estética e usabilidade.Tenho conhecimento e prática no desenvolvimento de wireframes, sitmaps, protótipos navegaveis, e softwares como treejack para validar o processo com os próprios usuários. Tenho proficiência no uso da ferramenta Figma, uma plataforma colaborativa que me permite traduzir ideias criativas em designs interativos e prontos para desenvolvimento. Atualmente, estou dedicada a aprimorar ainda mais minhas habilidades através do curso de Análise e Desenvolvimento de Sistemas.',
       },
 
       projectText: {

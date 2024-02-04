@@ -1,8 +1,8 @@
 export default {
   colors: {
     primaryText: '#FFFFFF',
-    background: '#FFF',
-    secondBackground: '#F3F3F3',
+    background: '#F5F5F5',
+    secondBackground: '#FFF',
     colorHeader: '#8EB219',
     colorTextApresentation: '#000',
     hoverLinkHeader: '#00211F',

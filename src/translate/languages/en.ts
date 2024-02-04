@@ -14,7 +14,7 @@ const messages = {
       },
       aboutText: {
         subtitle: 'About me',
-        paragraph1: "I'm a Front-end Developer passionate about React JS, specializing in Redux, Styled Components, TypeScript, Bootstrap and Material UI. My passion for innovation guides my work, where I constantly seek challenges to explore new horizons and find creative solutions. In addition to technical skills, I have intermediate technical English, facilitating communication in development environments. Committed, I love facing complex problems, believing that each challenge is an opportunity to learn and grow. If you are looking for a passionate professional committed to the success of the project, I am ready to contribute and transform ideas into incredible experiences.",
+        paragraph1: "I'm a design enthusiast passionate about creating engaging and functional digital experiences. As a UX/UI Designer, my goal is to combine aesthetic beauty and usability. I have knowledge and practice in developing wireframes, sitmaps, navigable prototypes and software such as treejack to validate the process with the users themselves. I am proficient in using the Figma tool, a collaborative platform that allows me to translate creative ideas into interactive, development-ready designs. Currently, I am dedicated to further improving my skills through a degree in Systems Analysis and Development.",
       },
 
       projectText: {
