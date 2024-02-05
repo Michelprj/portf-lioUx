@@ -1,4 +1,3 @@
-import React from 'react';
 import { i18n } from '../../translate/i18n';
 import { Container } from './style';
 

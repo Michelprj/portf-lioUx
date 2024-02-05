@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { ThemeProvider } from 'styled-components';
 import Header from './components/header';
 import HeaderContext from './context/HeaderContext';
@@ -7,6 +7,7 @@ import ligth from './styles/themes/ligth';
 import GlobalStyles from './styles/globalStyles';
 import Home from './pages/home';
 import About from './pages/about';
+import Skills from './pages/skills';
 
 function App() {
   const { storageMode } = useContext(HeaderContext);
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Skills />
     </ThemeProvider>
   );
 }

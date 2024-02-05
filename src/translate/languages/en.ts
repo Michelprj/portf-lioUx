@@ -22,24 +22,9 @@ const messages = {
       },
 
       skillsText: {
-        subtitle: 'Skills',
-        titleSkills1: 'Front-end development:',
-        titleSkills2: 'State Management:',
-        titleSkills3: 'Libraries and Frameworks:',
-        titleSkills4: 'Version control:',
-        titleSkills5: 'Development Tools:',
-        titleSkills6: 'Package Management:',
-        titleSkills7: 'Code standards:',
-        titleSkills8: 'Operational systems:',
-        textSkills1: '- Solid experience in HTML and CSS to create visually appealing and responsive web interfaces.',
-        textSkills2: '- Proficiency in React, JavaScript and TypeScript for efficient and dynamic development of front-end components.',
-        textSkills3: '- Advanced Redux knowledge for effective application state management, ensuring a consistent user experience.',
-        textSkills4: '- Proficiency in using popular libraries such as Styled Components, Material-UI and Bootstrap to speed development and ensure consistent designs.',
-        textSkills5: '- Hands-on experience with Git for version control, facilitating collaborative work and tracking code changes.',
-        textSkills6: '- Proficient in using Visual Studio Code (VSCode) as a development environment, maximizing productivity through its powerful features.',
-        textSkills7: '- Advanced NPM knowledge for efficient management of packages and dependencies across projects, ensuring smooth integration of external libraries.',
-        textSkills8: '- Experience using ESLint to ensure compliance with code standards, improving code readability and maintainability.',
-        textSkills9: '- Competence in Linux environments, including Ubuntu and Unix, for development and deployment on servers.',
+        subtitle: 'Technical abilities',
+        titleKnowledge: 'Knowledge',
+        subtitleKnowledge: 'Comunication',
       },
 
       contactsText: {

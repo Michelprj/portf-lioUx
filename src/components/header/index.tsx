@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { Link } from 'react-scroll';
 import SwitchTheme from './switchTheme';
 import { Container, ContainerSelector, Select, TextsHeader } from './style.';
@@ -45,18 +45,6 @@ function Header() {
 
             </Link>
             <Link
-              to="projects"
-              activeClass="active"
-              spy
-              smooth
-              offset={ 50 }
-              duration={ 800 }
-              onClick={ () => setViewMenu('disable') }
-            >
-              {i18n.t('headerTexts.textProjects')}
-
-            </Link>
-            <Link
               to="skills"
               activeClass="active"
               spy
@@ -66,6 +54,18 @@ function Header() {
               onClick={ () => setViewMenu('disable') }
             >
               {i18n.t('headerTexts.textSkills')}
+
+            </Link>
+            <Link
+              to="projects"
+              activeClass="active"
+              spy
+              smooth
+              offset={ 50 }
+              duration={ 800 }
+              onClick={ () => setViewMenu('disable') }
+            >
+              {i18n.t('headerTexts.textProjects')}
 
             </Link>
             <Link
