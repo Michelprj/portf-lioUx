@@ -58,18 +58,35 @@ export const Container = styled.section`
 
   @media ${device.laptopMin} and (max-width: 1024px) {
     height: calc(100vh + 55px);
+
+    .geometric-image {
+      top: 40px;
+    }
+
     .profile img {
-    width: 40vh;
-    margin: 0vh 10vw 0 5vw; 
+      width: 35vh;
+      margin: 0vh 8vw 0 5vw; 
     }
 
     .container-text {
     position: relative;
     margin: 15vh 0 0; 
+
+
+    .change-color {
+      font-size: 32px;
+      font-weight: 500;
+    }
+
+    p {
+      color: ${(props) => props.theme.colors.colorTextApresentation};
+      transition: all 0.6s ease;
+      font-size: 24px;
+    }
   }
 
   p {
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 30px;
   }
 
@@ -78,6 +95,11 @@ export const Container = styled.section`
   @media ${device.tabletMin} and (max-width: 768px) {
     flex-direction: column;
     height: calc(100vh + 50px);
+
+    .geometric-image {
+      top: 34px;
+    }
+
     .profile img {
       width: 35vh;
       margin: 15vh 0 0;
@@ -85,8 +107,19 @@ export const Container = styled.section`
 
     .container-text {
     position: relative;
-    margin: 10vh 0 0 16vw;
-    width: 55vw;
+    margin: 8vh 0 0 6vw;
+    width: 65vw;
+
+    .change-color {
+      font-size: 32px;
+      font-weight: 500;
+    }
+
+    p {
+      color: ${(props) => props.theme.colors.colorTextApresentation};
+      transition: all 0.6s ease;
+      font-size: 24px;
+    }
   }
 
   p {
@@ -108,7 +141,18 @@ export const Container = styled.section`
     .container-text {
     position: relative;
     margin: 15vw 0 0;
-    width: 65vw;
+    width: 80vw;
+
+    .change-color {
+      font-size: 30px;
+      font-weight: 500;
+    }
+
+    p {
+      color: ${(props) => props.theme.colors.colorTextApresentation};
+      transition: all 0.6s ease;
+      font-size: 19px;
+    }
   }
 
   p {

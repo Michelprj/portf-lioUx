@@ -74,7 +74,7 @@ export const Container = styled.div`
     .hamburger {
       width: 35px;
       border-top: 3px solid;
-      color: ${(props) => props.theme.colors.colorHeader};
+      color: ${(props) => props.theme.colors.hoverLinkHeader};
       transition: .5s;
 
     }
@@ -151,6 +151,7 @@ export const TextsHeader = styled.div`
     }
   }
   @media ${device.tabletMin} and (max-width: 768px) {
+  margin-right: 5px;
     a {
       padding: 0 1vw;
       font-size: 14px;
