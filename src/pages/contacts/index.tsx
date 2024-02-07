@@ -13,34 +13,29 @@ function Contacts() {
           <p>{i18n.t('contactsText.text2')}</p>
         </div>
         <div className="contacts-icons">
-          <a href="https://www.linkedin.com/in/michelprdev/" target="_blank" rel="noopener noreferrer">
-            <img src="/linkedInIcon.png" alt="LinkedIn" />
-          </a>
-          <a href="https://github.com/Michelprj" target="_blank" rel="noopener noreferrer">
-            <img src="/githubIcon.png" alt="GitHub" />
-
-          </a>
           <a
-            href="mailto:michelpr1224@gmail.com?subject=&body="
+            href="https://wa.me/5527996205950"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/emailIcon.png" alt="E-mail" />
-
+            <img src="/iconWhatsApp.svg" alt="WhatsApp" />
+          </a>
+          <a href="https://www.linkedin.com/in/cassianefernandesp/" target="_blank" rel="noopener noreferrer">
+            <img src="/iconLinkedIn.svg" alt="LinkedIn" />
           </a>
           <a
-            href="https://wa.me/5527999855540?text=Ol%C3%A1%21+Preciso+falar+com+voc%C3%AA%21+"
+            href="mailto:fernandescassiane93@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/phoneIcon.png" alt="Phone" />
+            <img src="/iconEmail.svg" alt="E-mail" />
 
           </a>
         </div>
       </div>
       <div className="contacts-image">
         <img
-          src={ storageMode ? '/imgContactDark.png' : '/imgContactLight.png' }
+          src={ storageMode ? '/imageDarkContact.svg' : '/imageLightContact.svg' }
           alt="Contact Img"
         />
       </div>

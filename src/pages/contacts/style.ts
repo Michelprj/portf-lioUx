@@ -3,11 +3,9 @@ import { device } from '../../styles/responsive/device';
 
 export const Container = styled.section`
   height: 110vh;
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100vw;
 
   .contacts-image img {
     height: 350px;
@@ -15,16 +13,19 @@ export const Container = styled.section`
 
   .text-contacts h2 {
     color: ${(props) => props.theme.colors.colorTextApresentation};
-    font-size: 36px;
+    font-size: 40px;
     width: 40vw;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
+    font-family: "Roboto Serif", sans-serif;
   }
 
   .text-contacts p {
     color: ${(props) => props.theme.colors.colorTextApresentation};
-    font-size: 13px;
-    width: 22vw;
+    font-size: 24px;
+    width: 30vw;
     margin-bottom: 15vh;
+    font-family: "Roboto Serif", sans-serif;
+    font-weight: 500;
   }
 
   .contacts-icons img {
@@ -32,12 +33,12 @@ export const Container = styled.section`
     margin-right: 15px;
     height: 50px;
     padding: 12px;
-    border-radius: 45%;
+    border-radius: 10px;
   }
 
   .contacts-icons img:hover {
-    box-shadow: 0px 0px 20px 8px ${(props) => props.theme.colors.colorHeader};
-    border-radius: 35%;
+    box-shadow: 0px 0px 10px 5px ${(props) => props.theme.colors.colorHeader};
+    border-radius: 5px;
   }
 
   @media ${device.tabletMin} and (max-width: 768px) {
