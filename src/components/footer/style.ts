@@ -13,7 +13,7 @@ export const Container = styled.div`
 
   p {
     font-size: 10px;
-    color: ${(props) => props.theme.colors.colorTextApresentation};
+    color: #F5F5F5;
   }
 
   @media ${device.tabletMin} and (max-width: 768px) {
