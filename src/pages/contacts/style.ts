@@ -60,12 +60,12 @@ export const Container = styled.section`
     }
 
     .text-contacts h2 {
-      font-size: 34px;
+      font-size: 38px;
       width: 80vw;
     }
 
     .text-contacts p {
-      font-size: 12px;
+      font-size: 22px;
       width: 80vw;
       margin-bottom: 2vh;
     }
@@ -86,12 +86,12 @@ export const Container = styled.section`
       }
 
       .text-contacts h2 {
-        font-size: 30px;
+        font-size: 34px;
         width: 90vw;
       }
 
       .text-contacts p {
-        font-size: 12px;
+        font-size: 20px;
         width: 90vw;
         margin-bottom: 5vh;
       }
