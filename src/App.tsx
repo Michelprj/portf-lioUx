@@ -10,6 +10,8 @@ import About from './pages/about';
 import Skills from './pages/skills';
 import Projects from './pages/projects';
 import Contacts from './pages/contacts';
+import Footer from './components/footer';
+import ButtonTop from './components/buttonTop';
 
 function App() {
   const { storageMode } = useContext(HeaderContext);
@@ -23,6 +25,8 @@ function App() {
       <Skills />
       <Projects />
       <Contacts />
+      <Footer />
+      <ButtonTop />
     </ThemeProvider>
   );
 }
