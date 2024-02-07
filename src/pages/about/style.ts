@@ -10,7 +10,7 @@ export const Container = styled.section`
   justify-content: center;
 
     .about-text {
-      width: 40%;
+      width: 80%;
 
       h2 {
         margin-bottom: 3vw;
@@ -25,33 +25,35 @@ export const Container = styled.section`
       }
     }
 
-  @media ${device.tabletMin} and (max-width: 768px) {
-      display: flex;
-      align-items: center;
-      flex-direction: column-reverse;
+  @media ${device.laptopMin} and (max-width: 1024px) {
+    .about-text {
+        width: 80%;
+        margin: 0 5% 5%;
 
+        p {
+          font-size: 18px;
+        }
+      }
+  }
+
+  @media ${device.tabletMin} and (max-width: 768px) {
       .about-text {
         width: 80%;
         margin: 0 5% 5%;
 
         p {
-          font-size: 14px;
+          font-size: 17px;
         }
       }
   }
 
   @media ${device.mobileMax} {
-      display: flex;
-      align-items: center;
-      flex-direction: column-reverse;
-      justify-content: space-evenly;
-
       .about-text {
-        width: 75%;
+        width: 90%;
         margin: 0 5% 5%;
 
         p {
-          font-size: 14px;
+          font-size: 16px;
         }
       }
 
