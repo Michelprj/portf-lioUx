@@ -17,6 +17,7 @@ export const Container = styled.section`
     width: 40vw;
     margin-bottom: 3vh;
     font-family: "Roboto Serif", sans-serif;
+    font-weight: 500;
   }
 
   .text-contacts p {

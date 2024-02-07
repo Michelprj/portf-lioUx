@@ -19,7 +19,7 @@ export const Container = styled.section`
       }
 
       p {
-        font-size: 24px;
+        font-size: 21px;
         color: ${(props) => props.theme.colors.colorTextApresentation};
         line-height: 1.4;
       }
