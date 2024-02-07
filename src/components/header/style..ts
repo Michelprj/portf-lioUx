@@ -54,6 +54,16 @@ export const Container = styled.div`
     position: fixed;
     z-index: 10000;
     height: 3.5em;
+
+    .container-textHeader-and-buttons {
+      display: flex;
+      width: 100vw;
+      justify-content: end;
+      margin-right: 40px;
+      height: 3em;
+      gap: 20px;
+    }
+
     .btn-hamburger {
       display: flex;
       background-color: transparent;
@@ -238,7 +248,7 @@ export const ContainerSelector = styled.div`
   }
   @media ${device.mobileMax} {
     .languageOption {
-      margin-right: 1px;
+      margin-right: 16px;
     }
     .languageIcon {
       position: absolute;
