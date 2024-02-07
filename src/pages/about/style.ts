@@ -15,10 +15,11 @@ export const Container = styled.section`
       h2 {
         margin-bottom: 3vw;
         color: #8EB219;
+        font-size: 30px;
       }
 
       p {
-        font-size: 17px;
+        font-size: 24px;
         color: ${(props) => props.theme.colors.colorTextApresentation};
         line-height: 1.4;
       }

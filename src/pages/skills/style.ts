@@ -23,7 +23,8 @@ export const Container = styled.section`
   }
 
   .container-softwares {
-    width: 30vw;
+    /* width: 20vw; */
+    margin-right: 50px;
     .line-botton {
       background-color: #979797;
       height: 2px;
@@ -33,7 +34,7 @@ export const Container = styled.section`
   }
 
   .container-knowledge {
-    width: 30vw;
+    width: 35vw;
     .line-botton {
       background-color: #979797;
       height: 2px;

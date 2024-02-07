@@ -4,7 +4,7 @@ import { device } from '../../styles/responsive/device';
 export const Container = styled.section`
   display: flex;
   align-items: center;
-  width: 97.5vw;
+  width: 98vw;
   height: calc(100vh + 55px);
   flex-direction: row-reverse;
   justify-content: space-evenly;
@@ -45,7 +45,7 @@ export const Container = styled.section`
     p {
       color: ${(props) => props.theme.colors.colorTextApresentation};
       transition: all 0.6s ease;
-      font-size: 30px;
+      font-size: 26px;
       font-family: "Roboto Serif";
       font-weight: 400;
     }
