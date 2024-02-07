@@ -59,7 +59,7 @@ export const Container = styled.div`
       display: flex;
       width: 100vw;
       justify-content: end;
-      margin-right: 15px;
+      margin-right: 28px;
       height: 3em;
       gap: 20px;
     }
