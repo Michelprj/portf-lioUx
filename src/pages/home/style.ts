@@ -61,6 +61,7 @@ export const Container = styled.section`
 
     .geometric-image {
       top: 40px;
+      width: 102vw;
     }
 
     .profile img {
@@ -98,6 +99,7 @@ export const Container = styled.section`
 
     .geometric-image {
       top: 34px;
+      width: 102vw;
     }
 
     .profile img {
@@ -132,6 +134,11 @@ export const Container = styled.section`
     flex-direction: column;
     width: 95vw;
     height: calc(100vh + 56px);
+
+    .geometric-image {
+      top: 34px;
+      width: 105vw;
+    }
 
     .profile img {
     width: 70vw;

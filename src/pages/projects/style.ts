@@ -247,5 +247,4 @@ export const Container = styled.section`
     width: 20px;
   }
 }
-
 `;

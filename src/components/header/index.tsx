@@ -94,6 +94,7 @@ function Header() {
               onChange={ handleLanguage }
               value={ values.languageOption }
               id="languageOption"
+              className="languageOption"
             >
               { valuesLanguage.map((value, index) => (
                 <option key={ index } value={ value.country }>{value.acronym}</option>

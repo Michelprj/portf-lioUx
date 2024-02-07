@@ -14,7 +14,6 @@ export const Container = styled.div`
   width: 100%;
   z-index: 10000;
   box-shadow: 0px 7px 6px 0px rgba(0,0,0,0.1);
-
   .container-textHeader-and-buttons {
     display: flex;
     width: 100vw;
@@ -121,7 +120,6 @@ export const Container = styled.div`
       height: 3em;
       margin-right: 30vw;
     }
-
     .actived a.active {
       color: ${(props) => props.theme.colors.hoverLinkHeader};
     }
@@ -184,9 +182,7 @@ export const Select = styled.select`
   cursor: pointer;
   font-family: Roboto Slab;
   font-weight: 700;
-
   margin-right: 30px;
-
   option {
     border: 4px solid white;
     background-color: ${(props) => props.theme.colors.optionSelectColor};
@@ -211,7 +207,7 @@ export const Select = styled.select`
     border: 1px solid white;
     border-radius: 3px;
     color: white;
-    padding: 5px 10px 5px 35px;
+    padding: 5px 1px 5px 35px;
     font-weight: 500;
     font-size: 12px;
   }
@@ -241,6 +237,9 @@ export const ContainerSelector = styled.div`
     }
   }
   @media ${device.mobileMax} {
+    .languageOption {
+      margin-right: 16px;
+    }
     .languageIcon {
       position: absolute;
       left: 6px;
