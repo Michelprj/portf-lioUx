@@ -9,7 +9,7 @@ const messages = {
       },
       apresentationText: {
         firstText: 'Olá, eu sou a Cassiane',
-        secondText: 'UX/UI DESIGNER,',
+        secondText: 'UX/UI DESIGNER.',
         thirdText: 'E meu foco como profissional é a criação de soluções inovadoras, interfaces intuitivas e agradáveis.',
       },
       aboutText: {
