@@ -12,6 +12,7 @@ declare module 'styled-components' {
       optionSelectColor: string,
       scrollThumb: string,
       btnTopColor: string,
+      colorCarousel: string,
     };
   }
 }

@@ -8,6 +8,7 @@ import GlobalStyles from './styles/globalStyles';
 import Home from './pages/home';
 import About from './pages/about';
 import Skills from './pages/skills';
+import Projects from './pages/projects';
 
 function App() {
   const { storageMode } = useContext(HeaderContext);
@@ -19,6 +20,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Projects />
     </ThemeProvider>
   );
 }

@@ -14,8 +14,8 @@ export const Container = styled.section`
 
   .container-skills {
     display: flex;
-    width: 80vw;
-    justify-content: space-evenly;
+    width: 90vw;
+    justify-content: center;
 
     h3 {
       color: ${(props) => props.theme.colors.colorTextApresentation};
@@ -23,7 +23,7 @@ export const Container = styled.section`
   }
 
   .container-softwares {
-    width: 50vw;
+    width: 30vw;
     .line-botton {
       background-color: #979797;
       height: 2px;
@@ -33,7 +33,7 @@ export const Container = styled.section`
   }
 
   .container-knowledge {
-    width: 50vw;
+    width: 30vw;
     .line-botton {
       background-color: #979797;
       height: 2px;
