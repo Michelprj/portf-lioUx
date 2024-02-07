@@ -238,7 +238,7 @@ export const ContainerSelector = styled.div`
   }
   @media ${device.mobileMax} {
     .languageOption {
-      margin-right: 16px;
+      margin-right: 1px;
     }
     .languageIcon {
       position: absolute;
