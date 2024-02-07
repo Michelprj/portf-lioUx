@@ -211,7 +211,7 @@ export const Container = styled.section`
   }
 
   .container-project {
-    height: 750px;
+    height: 500px;
     width: 355px;
   }
 
@@ -219,13 +219,14 @@ export const Container = styled.section`
     height: 750px;
   }
   .swiper-slide {
-    height: 750px;
+    height: 550px;
     width: 357px;
   }
   .swiper-slide .swiper-img {
-    width: 360px;
-    height: 370px;
-    margin-bottom: 30px;
+    width: 260px;
+    height: 270px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .slider-controler {
     bottom: 55px;
