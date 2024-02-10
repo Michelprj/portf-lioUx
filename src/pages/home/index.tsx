@@ -15,7 +15,7 @@ function Home() {
       />
       <div className="profile">
         <img
-          src="/profile.svg"
+          src={ storageMode ? '/profileDark.png' : '/profileLight.png' }
           alt="profile"
         />
       </div>
