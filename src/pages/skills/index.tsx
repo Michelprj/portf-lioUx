@@ -34,7 +34,7 @@ function Skills() {
                 value="280"
               />
               <ProgressSkills titleSkill="Google analytics" value="180" />
-              <ProgressSkills titleSkill="Treejack" value="180" />
+              <ProgressSkills titleSkill="HTML e CSS" value="100" />
             </div>
           </div>
         </div>

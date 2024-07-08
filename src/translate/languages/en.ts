@@ -14,7 +14,7 @@ const messages = {
       },
       aboutText: {
         subtitle: 'About me',
-        paragraph1: "I'm a design enthusiast passionate about creating engaging and functional digital experiences. As a UX/UI Designer, my goal is to combine aesthetic beauty and usability. I have knowledge and practice in developing wireframes, sitmaps, navigable prototypes and software such as treejack to validate the process with the users themselves. I am proficient in using the Figma tool, a collaborative platform that allows me to translate creative ideas into interactive, development-ready designs. Currently, I am dedicated to further improving my skills through a degree in Systems Analysis and Development.",
+        paragraph1: "I'm a design enthusiast passionate about creating engaging and functional digital experiences. As a UX/UI Designer, my goal is to combine aesthetic beauty and usability. I have knowledge and practice in developing wireframes, sitmaps and navigable prototypes. I am proficient in using the Figma tool, a collaborative platform that allows me to translate creative ideas into interactive, development-ready designs. Currently, I am dedicated to further improving my skills through a degree in Systems Analysis and Development.",
       },
 
       projectText: {
