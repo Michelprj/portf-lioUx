@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     imgProject: '/projectPortfront.png',
     altProject: 'Project Portfólio dev',
-    nameProject: 'Michel Pereira: Portfólio de desenvolvedor.',
+    nameProject: 'Portfólio de desenvolvedor.',
     linkBehance: 'https://www.behance.net/gallery/190335903/Portifolio-de-Desenvolvedor-Front-End',
   },
   {
@@ -19,5 +19,12 @@ export const projects = [
     altProject: 'Project TuneSync',
     nameProject: 'TuneSync: Afinador de instrumentos musicais',
     linkBehance: 'https://www.behance.net/gallery/190337221/TuneSync',
+  },
+  {
+    id: 4,
+    imgProject: '/projectMonteMor.png',
+    altProject: 'Project MonteMor',
+    nameProject: 'Conexão MonteMor: Site de busca de empregos.',
+    linkBehance: 'https://www.behance.net/gallery/204246859/Site-de-busca-de-empregos',
   },
 ];

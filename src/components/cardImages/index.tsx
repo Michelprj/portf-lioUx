@@ -16,7 +16,7 @@ function CardImages({ imgProject,
         alt={ altProject }
         className="swiper-img"
       />
-      <h3>{nameProject}</h3>
+      <h3 style={ { textAlign: 'center' } }>{nameProject}</h3>
       <a
         href={ linkBehance }
         target="_blank"
