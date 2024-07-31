@@ -15,8 +15,8 @@ function SwitchTheme() {
           onChange={ handleTheme }
         />
         <Label htmlFor="chk">
-          {/* <img src="/sun.svg" alt="sunTheme" />
-          <img src="/moon.svg" alt="moonTheme" /> */}
+          <img src="/sun.svg" alt="sunTheme" />
+          <img src="/moon.svg" alt="moonTheme" />
           <div className="ball" />
         </Label>
       </Container>
