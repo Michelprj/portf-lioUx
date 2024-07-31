@@ -10,7 +10,7 @@ export const projects = [
     id: 2,
     imgProject: '/projectCookfy.png',
     altProject: 'Project Cookfy',
-    nameProject: 'Cookfy: Aplicativo de receitas com rede social integrada e cardápio personalizado.',
+    nameProject: 'Cookfy: Aplicativo de receitas.',
     linkBehance: 'https://www.behance.net/gallery/190329375/COOKFY',
   },
   {
