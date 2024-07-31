@@ -13,6 +13,7 @@ declare module 'styled-components' {
       scrollThumb: string,
       btnTopColor: string,
       colorCarousel: string,
+      themeMode: boolean,
     };
   }
 }

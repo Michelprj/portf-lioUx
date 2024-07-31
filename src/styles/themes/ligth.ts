@@ -9,6 +9,7 @@ export default {
     optionSelectColor: '#00211F',
     scrollThumb: '#205375',
     btnTopColor: '#041319',
-    colorCarousel: '#F5F5F5'
+    colorCarousel: '#F5F5F5',
+    themeMode: false,
   },
 };
