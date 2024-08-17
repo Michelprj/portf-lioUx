@@ -15,10 +15,10 @@ export const projects = [
   },
   {
     id: 3,
-    imgProject: '/projectTunesync.png',
-    altProject: 'Project TuneSync',
-    nameProject: 'TuneSync: Afinador de instrumentos musicais',
-    linkBehance: 'https://www.behance.net/gallery/190337221/TuneSync',
+    imgProject: '/projectBarbers.png',
+    altProject: 'Project Barber’s Alley',
+    nameProject: 'Barber’s Alley: Sistema de agendamentos para barbearia',
+    linkBehance: 'https://www.behance.net/gallery/205772531/Sistema-de-agendamentos-para-barbearia',
   },
   {
     id: 4,
