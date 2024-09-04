@@ -20,9 +20,9 @@ function Contacts() {
           >
             <img src="/iconWhatsApp.svg" alt="WhatsApp" />
           </a>
-          <a href="https://www.linkedin.com/in/cassianefernandesp/" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://www.linkedin.com/in/cassianefernandesp/" target="_blank" rel="noopener noreferrer">
             <img src="/iconLinkedIn.svg" alt="LinkedIn" />
-          </a>
+          </a> */}
           <a
             href="mailto:fernandescassiane93@gmail.com"
             target="_blank"
