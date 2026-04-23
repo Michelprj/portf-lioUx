@@ -7,7 +7,7 @@ function About() {
       <div className="about-text">
 
         <h2>{i18n.t('aboutText.subtitle')}</h2>
-        <p>{i18n.t('aboutText.paragraph1')}</p>
+        <p dangerouslySetInnerHTML={{ __html: i18n.t('aboutText.paragraph1') }} />
 
       </div>
     </Container>

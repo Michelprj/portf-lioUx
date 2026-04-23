@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-
 :root {
   --primary: #6a59ff;
   --white: #ffffff;
   --bg: #f5f5f5;
 }
-
   height: 120vh;
   margin: 0 auto;
   display: flex;
@@ -25,18 +23,27 @@ export const Container = styled.section`
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    justify-content: space-between;
     height: 700px;
     width: 500px;
-
+    padding: 40px 32px 44px;
+    box-sizing: border-box;
     border-radius: 10px;
-
     background-color: ${(props) => props.theme.colors.colorCarousel};
+  }
+
+  .project-image-frame {
+    width: 100%;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
   }
 
   .container-project h3 {
     color: ${(props) => props.theme.colors.colorTextApresentation};
-    margin-bottom: 50px;
+    margin: 0;
     font-size: 20px;
     font-weight: 500;
     width: 350px;
@@ -60,11 +67,8 @@ export const Container = styled.section`
   transition-property: transform;
   transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
   box-sizing: content-box;
-
   height: 700px;
-
   transform: translate3d(97px, 0px, 0px);
-
 }
 
 .swiper-3d {
@@ -85,11 +89,11 @@ export const Container = styled.section`
 }
 
 .swiper-slide .swiper-img {
-  width: 360px;
-  height: 370px;
-  object-fit: cover;
-  margin-bottom: 80px;
-  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
 }
 
 .slider-controler {
@@ -145,7 +149,6 @@ export const Container = styled.section`
 }
 
 @media (min-width: 481px) and (max-width: 769px) {
-
   .swiper-wrapper {
     height: 700px;
   }
@@ -153,6 +156,7 @@ export const Container = styled.section`
   .container-project {
     height: 700px;
     width: 425px;
+    padding: 36px 24px 40px;
   }
 
   .swiper-slide {
@@ -163,9 +167,8 @@ export const Container = styled.section`
     height: 800px;
   }
 
-  .swiper-slide .swiper-img {
-    width: 360px;
-    height: 370px;
+  .project-image-frame {
+    height: 360px;
   }
   .slider-controler {
     bottom: 55px;
@@ -194,9 +197,7 @@ export const Container = styled.section`
 @media (max-width: 480px) {
   justify-content: center;
   height: 100vh;
-
   .container-project h3 {
-    margin-bottom: 40px;
     font-size: 18px;
     font-weight: 400;
     width: 250px;
@@ -213,6 +214,7 @@ export const Container = styled.section`
   .container-project {
     height: 500px;
     width: 355px;
+    padding: 20px 16px 28px;
   }
 
   .swiper_container {
@@ -222,11 +224,8 @@ export const Container = styled.section`
     height: 550px;
     width: 357px;
   }
-  .swiper-slide .swiper-img {
-    width: 260px;
-    height: 270px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  .project-image-frame {
+    height: 240px;
   }
   .slider-controler {
     bottom: 55px;

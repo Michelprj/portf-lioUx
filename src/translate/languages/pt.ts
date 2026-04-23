@@ -14,7 +14,7 @@ const messages = {
       },
       aboutText: {
         subtitle: 'Sobre mim',
-        paragraph1: 'Sou uma entusiasta do design apaixonada por criar experiências digitais envolventes e funcionais. Como Designer de UX/UI, meu objetivo é unir beleza estética e usabilidade.Tenho conhecimento e prática no desenvolvimento de wireframes, sitmaps e protótipos navegaveis. Tenho proficiência no uso da ferramenta Figma, uma plataforma colaborativa que me permite traduzir ideias criativas em designs interativos e prontos para desenvolvimento. Atualmente, estou dedicada a aprimorar ainda mais minhas habilidades através do curso de Análise e Desenvolvimento de Sistemas.',
+        paragraph1: 'Transformo ideias em experiências digitais claras e bem resolvidas. No UX/UI, meu foco está em criar interfaces que façam sentido para quem usa, equilibrando funcionalidade, organização e estética. <br /> <br /> Tenho um olhar atento para composição, cores e hierarquia visual, buscando sempre soluções simples, intuitivas e consistentes. Me interesso por entender o problema antes de desenhar a solução, priorizando clareza e usabilidade em cada detalhe.',
       },
 
       projectText: {

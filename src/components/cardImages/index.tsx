@@ -11,11 +11,13 @@ function CardImages({ imgProject,
   linkBehance }: CardImagesProps) {
   return (
     <div className="container-project">
-      <img
-        src={ imgProject }
-        alt={ altProject }
-        className="swiper-img"
-      />
+      <div className="project-image-frame">
+        <img
+          src={ imgProject }
+          alt={ altProject }
+          className="swiper-img"
+        />
+      </div>
       <h3 style={ { textAlign: 'center' } }>{nameProject}</h3>
       <a
         href={ linkBehance }

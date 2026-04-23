@@ -14,7 +14,7 @@ const messages = {
       },
       aboutText: {
         subtitle: 'About me',
-        paragraph1: "I'm a design enthusiast passionate about creating engaging and functional digital experiences. As a UX/UI Designer, my goal is to combine aesthetic beauty and usability. I have knowledge and practice in developing wireframes, sitmaps and navigable prototypes. I am proficient in using the Figma tool, a collaborative platform that allows me to translate creative ideas into interactive, development-ready designs. Currently, I am dedicated to further improving my skills through a degree in Systems Analysis and Development.",
+        paragraph1: "I transform ideas into clear and well-resolved digital experiences. In UX/UI, my focus is on creating interfaces that make sense to the user, balancing functionality, organization, and aesthetics. <br /> <br /> I have a keen eye for composition, colors, and visual hierarchy, always seeking simple, intuitive, and consistent solutions. I am interested in understanding the problem before designing the solution, prioritizing clarity and usability in every detail.",
       },
 
       projectText: {
